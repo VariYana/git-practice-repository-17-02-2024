@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+h1+p {
+  background-color: #ab885b;
+}
+
+h2 {
+  background-color: #f1cdb7;
+}
+
+div.wrap > span {
+  background-color: #c4c9b2;
+}
+
+div p {
+  background-color: #d5b5b5;
+}
+
+.special {
+  background-color: #9c9499;
+}
+
+#header {
+  background-color: #799491;
+}
+
+a[href$=".pdf"] {
+  background-color: #b3d1da;
+}
+
+.container .box {
+  background-color: #f6e0c8;
+}
+
+.menu .item + li {
+  background-color: #a5aa94;
+}
+
+div.sidebar li~li {
+  background-color: #867994;
+}
