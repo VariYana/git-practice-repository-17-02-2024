@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 style="background-color: #ef9d87;">Застосовується вбудований стиль, вага 1000</h1>
+
+  <p>Застосовується до першого елемента p, який безпосередньо слідує за елементом h1, вага 2</p>
+  <p>Другий елемент p</p>
+
+  <h2>Застосовується до тегів h2, вага 1</h2>
+
+  <div class="wrap">
+    <span>Застосовується до тегів span, які вкладені у тег div, з класом wrap, на першому рівні вкладеності, вага
+      12</span>
+  </div>
+
+  <div>
+    <p>Застосовується до тегів p, вкладених у div, на першому рівні вкладеності, вага 2</p>
+  </div>
+
+  <p class="special">Застосовується до всіх елементів з класом special, вага 10</p>
+
+  <div id="header">Застосовується до елемента з ідентифікатором header, вага 100</div>
+
+  <a href="document.pdf">Застосовується до всіх посилань, які закінчуються на .pdf, вага 11</a>
+
+  <div class="container">
+    <div class="box">Застосовується до всіх елементів з класом box, які знаходяться всередині елемента з класом
+      container на першому рівні вкладеності, вага 20</div>
+  </div>
+
+  <ul class="menu">
+    <li class="item">Перший пункт</li>
+    <li>Застосовується до другого пункту списку li, який є наступним елементом після елемента з класом item у списку з
+      класом menu, вага 21</li>
+    <li>Третій пункт</li>
+  </ul>
+
+  <div class="sidebar">
+    <ul>
+      <li>Перший</li>
+      <li>Застосовується до тегів li, які знаходяться всередині тега div, з класом sidebar, окрім першого, вага 13</li>
+      <li>Третій</li>
+    </ul>
+  </div>
+</body>
+
+<footer>
+  <div>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+  </div>
+</footer>
+
+</html>
